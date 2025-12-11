@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Flo.Main/">
+    <Project Path="src/Main/Flo.Main.Core/Flo.Main.Core.csproj" />
+    <Project Path="src/Main/Flo.Main.Infrastructure/Flo.Main.Infrastructure.csproj" />
+    <Project Path="src\Main\Flo.Main.Application\Flo.Main.Application.csproj" />
+  </Folder>
+  <Folder Name="/Flo.Messaging/">
+    <Project Path="src/Messaging/Flo.Messaging.Application/Flo.Messaging.Application.csproj" />
+    <Project Path="src/Messaging/Flo.Messaging.Core/Flo.Messaging.Core.csproj" />
+    <Project Path="src/Messaging/Flo.Messaging.Infrastructure/Flo.Messaging.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Flo.FileSystem/">
+    <Project Path="src\FileSystem\Flo.FileSystem.Application\Flo.FileSystem.Application.csproj" />
+  </Folder>
+  <Folder Name="/Flo.Shared/">
+    <Project Path="src\Shared\Flo.Core.Shared\Flo.Core.Shared.csproj" />
+    <Project Path="src\Shared\Flo.Protos.Shared\Flo.Protos.Shared.csproj" />
+    <Project Path="src\Shared\Flo.ServiceDefaults\Flo.ServiceDefaults.csproj" />
+  </Folder>
+  <Project Path="src/Gateway/Flo.Web/Flo.Web.csproj" />
+  <Project Path="src\Aspire\Flo.AppHost\Flo.AppHost.csproj" />
+</Solution>

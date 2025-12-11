@@ -1,0 +1,21 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.0.2">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>9e9dc7e9-2c33-4cd3-bcf4-1d304e20f814</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommunityToolkit.Aspire.Hosting.Dapr" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Gateway\Flo.Web\Flo.Web.csproj" />
+      <ProjectReference Include="..\..\Main\Flo.Main.Application\Flo.Main.Application.csproj" />
+      <ProjectReference Include="..\..\Messaging\Flo.Messaging.Application\Flo.Messaging.Application.csproj" />
+    </ItemGroup>
+
+</Project>

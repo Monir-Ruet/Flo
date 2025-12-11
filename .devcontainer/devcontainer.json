@@ -1,0 +1,22 @@
+{
+	"name": ".NET and MS SQL",
+	"image": "mcr.microsoft.com/devcontainers/universal",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csharp",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+	
+	"postCreateCommand": "./.devcontainer/scripts/setup.sh",
+
+	"features": {
+		"ghcr.io/dapr/cli/dapr-cli:0": {},
+		"ghcr.io/devcontainers/features/dotnet:2": {},
+		"ghcr.io/dotnet/aspire-devcontainer-feature/dotnetaspire:1" : {}
+	}
+}

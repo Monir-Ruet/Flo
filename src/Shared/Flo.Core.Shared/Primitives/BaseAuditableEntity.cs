@@ -1,0 +1,12 @@
+﻿namespace Flo.Core.Shared.Primitives;
+
+public abstract class BaseAuditableEntity<T> : BaseEntity<T>
+{
+    public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.Now;
+
+    public string? CreatedBy { get; set; }
+
+    public DateTimeOffset? LastModifiedAt { get; set; }
+
+    public string? LastModifiedBy { get; set; }
+}
